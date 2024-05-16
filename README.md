@@ -8,7 +8,8 @@ This is a custom Gym environment [FetchReach-v1](https://gym.openai.com/envs/Fet
 
 Install custom Gym environment:
 
-1. `pip install gym`
+1. `pip install --upgrade setuptools==66`
+1. `pip install --upgrade gym==0.21`
 2. `git clone https://github.com/Naurislv/image_based_fetch_gym_env.git`
 3. `cd image_based_fetch_gym_env`
 4. `pip install -e .`
